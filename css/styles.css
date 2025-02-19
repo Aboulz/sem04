@@ -62,8 +62,8 @@ h1 {
 
 h2 {
     text-align: right;
-    font-size: 48px;
-    color: rgba(0, 0, 0, 0.3);
+    font-size: 56px;
+    color: rgba(0, 0, 0, 0.2);
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-weight: 100px;
@@ -81,14 +81,15 @@ h2 {
     margin: 40px 0;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
+
 
 article {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .gauche {
@@ -100,22 +101,22 @@ article {
 }
 
 .rond {
+    background-color: white;
     border: 2px solid #e67e22;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     color: #e67e22;
-    text-transform: lowercase;
+    font-size: 30px;
 }
 
 /*   Article info   */
 
 .info {
-    background-color: white;
     padding: 20px;
     text-align: justify;
     display: flex;
@@ -130,6 +131,8 @@ article {
 }
 
 .info article {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     flex: 1;
     min-width: 45%;
 }
@@ -150,7 +153,8 @@ h4 {
 }
 
 footer a {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     color: white;
     text-decoration: none;
     font-size: 15px;
