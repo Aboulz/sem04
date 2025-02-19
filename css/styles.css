@@ -100,9 +100,13 @@ article {
     background-color: #bdc3c7;
 }
 
+.droite-blanc{
+    background-color: white;
+}
+
 .rond {
     background-color: white;
-    border: 2px solid #e67e22;
+    border: 5px solid #e67e22;
     border-radius: 50%;
     width: 210px;
     height: 210px;
@@ -147,15 +151,28 @@ footer {
 }
 
 h4 {
+    margin: 0;
+    padding: 0;
     color: black;
     display: flex;
     justify-content: flex-start;
 }
 
-footer a {
+footer .wrapper {
     display: flex;
-    justify-content: flex-end;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
+    justify-content: flex-start flex-end;
 }
+
+.bouton-cercle{
+    color: black;
+    background: white;
+    border-radius: 100%;
+    border: 3px solid gray;
+    height: 50px;
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
